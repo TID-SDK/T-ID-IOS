@@ -1,0 +1,7 @@
+use_frameworks!
+
+target 'T-ID-Example' do
+  pod 'T-ID', path: '../'
+  pod 'SnapKit'
+  pod 'TSSLPinningPublic', git: 'https://opensource.tbank.ru/mobile-tech/sslpinning.git'
+end

@@ -1,0 +1,38 @@
+PODS:
+  - SnapKit (5.7.1)
+  - T-ID (2.0.3):
+    - TSSLPinningPublic (~> 11.0)
+  - TrustKit (3.0.7)
+  - TSSLPinningPublic (11.14.0):
+    - TrustKit (~> 3.0.3)
+
+DEPENDENCIES:
+  - SnapKit
+  - T-ID (from `../`)
+  - TSSLPinningPublic (from `https://opensource.tbank.ru/mobile-tech/sslpinning.git`)
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
+    - TrustKit
+
+EXTERNAL SOURCES:
+  T-ID:
+    :path: "../"
+  TSSLPinningPublic:
+    :git: https://opensource.tbank.ru/mobile-tech/sslpinning.git
+
+CHECKOUT OPTIONS:
+  TSSLPinningPublic:
+    :commit: f4bbf341d26f1dc3621d6b7b29954e703fc47e95
+    :git: https://opensource.tbank.ru/mobile-tech/sslpinning.git
+
+SPEC CHECKSUMS:
+  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
+  T-ID: 53e5d90c81796ddd88bdb0ca3c925a1182dc58cd
+  TrustKit: 1050f3ce0595f8ed775f1237b7f590e3a4f93e91
+  TSSLPinningPublic: 577daab2f9da63b16e0614095b6bc4134ad45263
+
+PODFILE CHECKSUM: 599dc1c5aa9974bf6b97157a5898233a52e75b68
+
+COCOAPODS: 1.16.2

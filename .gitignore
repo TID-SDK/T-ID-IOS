@@ -1,0 +1,44 @@
+### CocoaPods ###
+## CocoaPods GitIgnore Template
+
+# CocoaPods - Only use to conserve bandwidth / Save time on Pushing
+#           - Also handy if you have a large number of dependant pods
+#           - AS PER https://guides.cocoapods.org/using/using-cocoapods.html NEVER IGNORE THE LOCK FILE
+**/Pods/
+
+## Build generated
+build/
+DerivedData/
+.build
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Swift Package Manager
+# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+Packages/
+Package.pins
+Package.resolved
+*.xcodeproj
+# Xcode automatically generates this directory with a .xcworkspacedata file and xcuserdata
+# hence it is not needed unless you have added a package configuration file to your project
+.swiftpm
+
+# fastlane
+fastlane/README.md
+fastlane/report.xml
+fastlane/test_output
+
+# AppCode
+.idea
+
+# Xcode generated workspaces
+Example/Pods/
+Example/*.xcworkspace
+
+# Debug helper files for local development
+Example-Debug/Example-Debug.xcodeproj/xcuserdata
+
